@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "2105debe-65eb-484f-892b-a0db0a05c300",
+		"name": "IWA dataForViewBySlots",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:58000/dataForViewBySlots/SiemensAdept/kr4308G2374GNTvhr/34/202007241338/202007241/B/6/JSON/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewBySlots/SiemensAdept/kr4308G2374GNTvhr/34/202007241338/202007241/B/6/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewBySlots",
+						"SiemensAdept",
+						"kr4308G2374GNTvhr",
+						"34",
+						"202007241338",
+						"202007241",
+						"B",
+						"6",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:58000/dataForViewSpecies/U2hyb3BzaGlyZUNvdW5jaWxfZXhwOnQ4ZUZvY1F5UVg2Qk1xWkFjOFp5dENFc29WUXh1Qmpy /262/N02/202009021357/202009031357/AB/6/JSON/api",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:58000/dataForViewBySlots/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241/B/6/JSON/api \n",
+							"host": [
+								"localhost"
+							],
+							"port": "58000",
+							"path": [
+								"dataForViewBySlots",
+								"SiemensAdept",
+								"kr4308G2374GNTvhr",
+								"S500001",
+								"202007241338",
+								"202007241",
+								"B",
+								"6",
+								"JSON",
+								"api \n"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "834"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.14.1 Python/3.4.2"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Sep 2020 14:48:20 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\"data\": {\"Hourly average on the hour\": {\"slotB\": null, \"slotA\": null}, \"Unaveraged\": {\"slotB\": null, \"slotA\": null}}, \"errorDesc\": null, \"queryInfo\": {\"startDT\": \"202009021357\", \"userName\": \"ShropshireCouncil_exp\", \"view\": \"6\", \"averaging\": \"4\", \"endDT\": \"202009031357\", \"userKey\": \"t8...jr\", \"ZephyrID\": \"262\"}, \"info\": {\"indent\": 0, \"narrative\": [\"\n<p>API version: 4.0.6 </p>\", \"\n<p>Query: /dataForViewBySlotsAveraged/ShropshireCouncil_exp/t8...jr/262/202009021357/202009031357/AB/6/4</p>\", \"\n<p> Timings: overall=17.039secs; generateCalibratedData=0.594secs; processAndPackageCalibratedData=1.314secs\", \"Data source notes: New live Aurora DB aqdb7 - APIServer_3_activedev\n    <br>\"], \"datahash\": \"ecf8427e\", \"errors\": [], \"timings\": {\"overall\": 17.038592, \"generateCalibratedData\": 0.593756, \"processAndPackageCalibratedData\": 1.313793}}}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

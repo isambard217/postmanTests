@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "baeb1701-f4d0-43cb-ab96-93ea895fe359",
+		"name": "IWA dataForViewWithSpecies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewWithSpecies/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewWithSpecies",
+						"SiemensAdept",
+						"kr4308G2374GNTvhr",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"AB",
+						"def",
+						"4",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

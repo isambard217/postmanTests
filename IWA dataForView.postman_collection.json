@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "78185e68-bd21-4a59-a190-d0568647ca71",
+		"name": "IWA dataForView",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:58000/dataForView/IASSv2/foXk6JDBWahda4Q9EekZb2ANDsgk08ri/S500001/202007241338/202007241538/6/JSON/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForView/IASSv2/foXk6JDBWahda4Q9EekZb2ANDsgk08ri/S500001/202007241338/202007241538/6/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForView",
+						"IASSv2",
+						"foXk6JDBWahda4Q9EekZb2ANDsgk08ri",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"6",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:58000/dataForView/SiemensAdept/kr4308G2374GNTvhr/34/202007241338/202007241538/6/JSON/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForView/SiemensAdept/kr4308G2374GNTvhr/34/202007241338/202007241538/6/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForView",
+						"SiemensAdept",
+						"kr4308G2374GNTvhr",
+						"34",
+						"202007241338",
+						"202007241538",
+						"6",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

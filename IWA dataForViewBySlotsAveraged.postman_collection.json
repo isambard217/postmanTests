@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "24d6d51a-8bf2-4e52-8939-6252fcb137ab",
+		"name": "IWA dataForViewBySlotsAveraged",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewBySlotsAveraged",
+						"SiemensAdept",
+						"kr4308G2374GNTvhr",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"AB",
+						"def",
+						"4",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:58000/dataForViewBySlotsAveraged/IASSv2/foXk6JDBWahda4Q9EekZb2ANDsgk08ri/S500001/202007241338/202007241538/AB/def/4/JSON/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewBySlotsAveraged/IASSv2/foXk6JDBWahda4Q9EekZb2ANDsgk08ri/S500001/202007241338/202007241538/AB/def/4/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewBySlotsAveraged",
+						"IASSv2",
+						"foXk6JDBWahda4Q9EekZb2ANDsgk08ri",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"AB",
+						"def",
+						"4",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

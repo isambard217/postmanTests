@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "6dbf5195-1575-41fd-a414-d033085b0aa2",
+		"name": "IWA dataForViewBySlotsAveraged_token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewBySlotsAveraged/token/S500001/202007241338/202007241538/B/def/4/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewBySlotsAveraged",
+						"token",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"B",
+						"def",
+						"4",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/JSON/api Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:58000/dataForViewSpecies/U2hyb3BzaGlyZUNvdW5jaWxfZXhwOnQ4ZUZvY1F5UVg2Qk1xWkFjOFp5dENFc29WUXh1Qmpy /262/N02/202009021357/202009031357/AB/6/JSON/api",
+							"host": [
+								"localhost"
+							],
+							"port": "58000",
+							"path": [
+								"dataForViewSpecies",
+								"U2hyb3BzaGlyZUNvdW5jaWxfZXhwOnQ4ZUZvY1F5UVg2Qk1xWkFjOFp5dENFc29WUXh1Qmpy ",
+								"262",
+								"N02",
+								"202009021357",
+								"202009031357",
+								"AB",
+								"6",
+								"JSON",
+								"api"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "762"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.14.1 Python/3.4.2"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Sep 2020 13:45:43 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\"errorDesc\": null, \"data\": {\"Unaveraged\": {\"slotB\": null, \"slotA\": null}}, \"queryInfo\": {\"endDT\": \"202009031357\", \"userKey\": \"t8...jr\", \"userName\": \"ShropshireCouncil_exp\", \"view\": \"6\", \"averaging\": \"0\", \"ZephyrID\": \"262\", \"startDT\": \"202009021357\"}, \"info\": {\"datahash\": \"ecf8427e\", \"errors\": [], \"timings\": {\"generateCalibratedData\": 0.015623, \"processAndPackageCalibratedData\": 0.015636, \"overall\": 1.559765}, \"indent\": 0, \"narrative\": [\"\n<p>API version: 4.0.6 </p>\", \"\n<p>Query: /dataForViewSpecies/ShropshireCouncil_exp/t8...jr/262/202009021357/202009031357/AB/6/0</p>\", \"\n<p> Timings: generateCalibratedData=0.016secs; processAndPackageCalibratedData=0.016secs; overall=1.560secs\", \"Data source notes: New live Aurora DB aqdb7 - APIServer_3_activedev\n    <br>\"]}}"
+				}
+			]
+		},
+		{
+			"name": "localhost:58000/dataForViewBySlotsAveraged/IASSv2/foXk6JDBWahda4Q9EekZb2ANDsgk08ri/S500001/202007241338/202007241538/AB/def/4/JSON/api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:58000/dataForViewBySlotsAveraged/SiemensAdept/kr4308G2374GNTvhr/S500001/202007241338/202007241538/AB/def/4/Unaverage/JSON/api",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"dataForViewBySlotsAveraged",
+						"SiemensAdept",
+						"kr4308G2374GNTvhr",
+						"S500001",
+						"202007241338",
+						"202007241538",
+						"AB",
+						"def",
+						"4",
+						"Unaverage",
+						"JSON",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
